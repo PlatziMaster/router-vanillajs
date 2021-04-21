@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title> Cliente de nuestro SPA Router</title>
+    <script src="components/global.css"></script>
+    <script src="components/home.css"></script>
+    <script src="components/todos.js"></script>
+    <script src="components/contact.js"></script>
+  </head>
+
+  <body>
+    <header>
+      <ul>
+        <li>
+          <button onclick="loadRoute('/')">home</button>
+        </li>
+        <li>
+          <button  onclick="loadRoute('/contacto')">contacto</button>
+        </li>
+        <li>
+          <button onclick="loadRoute('/todos')">todos</button>
+        </li>
+        <li>
+          <button onclick="loadRoute('/sdsd')">todos</button>
+        </li>
+      </ul>
+    </header>
+
+    <div id="data-router"></div>
+    <script src="components/home.js"></script>
+    <script src="components/todos.js"></script>
+    <script src="components/contact.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
